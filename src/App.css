@@ -1,0 +1,80 @@
+@keyframes matrix {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #0f0, #060);
+  background-size: 200% 200%;
+  animation: matrix 10s linear infinite;
+  min-height: 100vh;
+  color: #0f0;
+}
+
+h1 {
+  color: #0f0;
+  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background: #000;
+  border: 2px solid #0f0;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+  height: 64px;
+  width: 64px;
+  margin: 4px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #003300;
+}
+
+.square:focus {
+  outline: none;
+  background: #006600;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #000;
+  color: #0f0;
+  border: 2px solid #0f0;
+  cursor: pointer;
+  text-shadow: 0 0 5px #0f0;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #003300;
+}
