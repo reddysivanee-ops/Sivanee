@@ -19,7 +19,7 @@
 }
 
 h1 {
-  color: #0f0;
+  color: pink;
   text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
 }
 
@@ -41,7 +41,7 @@ h1 {
   text-align: center;
   cursor: pointer;
   user-select: none;
-  color: #0f0;
+  color: blue;
   text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
   transition: background-color 0.3s ease;
 }
