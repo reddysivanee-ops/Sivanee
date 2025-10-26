@@ -1,60 +1,13 @@
-/* Base styles for the entire document */
 body {
   margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: green; /* Changed from light gray to green */
-  color: #333; /* Dark gray text for better readability */
-  line-height: 1.6; /* Improved line spacing */
-  font-size: 16px; /* Base font size for better legibility */
 }
 
-/* Standardized heading styles */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  color: blue;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-/* Link styling */
-a {
-  color: pink;
-  text-decoration: none;
-}
-
-a:hover, a:focus {
-  text-decoration: underline;
-}
-
-/* Code block styling */
-code, pre {
-  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
-  background-color: white; /* Changed from light to white for better contrast with green */
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-size: 0.95em;
-  color: #d6336c; /* A pleasant pinkish-red for code */
-}
-
-pre {
-  padding: 1em;
-  overflow-x: auto;
-}
-
-/* Universal box-sizing for consistent layout sizing */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* Improve focus outline for accessibility */
-:focus {
-  outline: 2px solid #007acc;
-  outline-offset: 2px;
-}
-
